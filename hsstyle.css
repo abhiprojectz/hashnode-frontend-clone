@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+body {
+	background-color: #F5F7FA;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+}
+
+.leftfixed {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	align-content: center;
+	width: 200px;
+}
+
+.writebtn {
+	background-color: #2962FF;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 800;
+	border-radius: 15px;
+	margin: 5px;
+	width: 100%;
+}
+
+.sb {
+	color: #495450;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+}
+
+.sb:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.sb > img {
+	margin-right: 10px;
+}
+
+.leftfixed > img {
+	cursor: pointer;
+	padding: 10px;
+	margin: auto;
+}
+
+.avater {
+	border-radius: 100%;
+	width: 30px;
+	cursor: pointer;
+}
+
+
+.middle-container {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.writewrap {
+	background-color: #fff;
+	border: 1px solid #E5E7EB;
+	border-radius: 10px;
+	justify-content: center;
+	padding:15px;
+
+}
+
+.ws1 {
+	display: flex;
+	align-items: center;
+	background-color: #E5E7EB;
+	padding: 20px;
+	color: #495450;
+	border-radius: 10px;
+	margin:8px;
+}
+
+.ws {
+	display: flex;
+	align-items: center;
+}
+
+.slab1 {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	margin-top: 15px;
+	background-color: #fff;
+	border: 1px solid #E5E7EB;
+
+}
+
+.slab1 > span {
+	margin: 10px;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.slab1 > span > img {
+	margin-right: 10px;
+}
+
+.rightwall {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.elem1 {
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #E5E7EB;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.elleft {
+	width: 75%;
+}
+
+.elright {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.fslab {
+	display: flex;
+}
+
+.fslab > div {
+	width: 50%;
+}
+
+ul li {
+	list-style-type: none;
+}
